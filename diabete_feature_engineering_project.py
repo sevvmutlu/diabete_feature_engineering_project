@@ -78,7 +78,7 @@ def check_df(dataframe, head=5):
     print(dataframe.head(head))
     print('TAIL')
     print(dataframe.tail(head))
-    print(('NA'))
+    print('NA')
     print(dataframe.isnull().sum())
     print('QUANTILES')
     print(dataframe.quantile([0, 0.05, 0.50, 0.95, 0.99, 1]).T)
